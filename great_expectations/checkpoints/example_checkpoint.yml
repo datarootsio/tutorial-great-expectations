@@ -1,0 +1,9 @@
+validation_operator_name: action_list_operator
+batches:
+  - batch_kwargs:
+      path: data/avocado.csv
+      datasource: data_dir
+      reader_method: read_csv
+      data_asset_name: avocado
+    expectation_suite_names:
+      - check_avocado_data
