@@ -1,15 +1,17 @@
 # Great Expectations tutorial
 
-## Requirements
+## Run using docker
+If you have docker installed, you can pull our container to run the tutorial:
+    `docker pull dataroots/tutorial-great-expectations && docker run -it --rm -p 8888:8888 dataroots/tutorial-great-expectations`
 
-- Docker
+Alternatively, clone this repository and run `./run.sh`.
 
-## Running the tutorial
+Next, copy paste the URL on the last line of the output to your favorite web browser, and navigate to the `tutorial-great_expectations` notebook.
+Enjoy the ride!
 
-1. Run `./run.sh` in the terminal in this directory.
-2. Copy paste the URL on the last line of the output to your favorite web browser.
-3. Click on `work` on the webpage.
-4. Click on `tutorial-great_expectations.ipynb` on the webpage to open the tutorial notebook.
+## Run without docker
+You'll need `jupyter` and `great_expectations` installed. They're available through pip.
+Clone the repository and run `jupyter notebook` in the root directory; then navigate to the `tutorial-great_expectations` notebook.
 
-
+## Acknowledgements
 Avocado dataset provided by the Hass Avocado Board, https://hassavocadoboard.com/volume-data-projections/ .
