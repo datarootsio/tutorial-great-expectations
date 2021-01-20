@@ -10,3 +10,6 @@
 2. Copy paste the URL on the last line of the output to your favorite web browser.
 3. Click on `work` on the webpage.
 4. Click on `tutorial-great_expectations.ipynb` on the webpage to open the tutorial notebook.
+
+
+Avocado dataset provided by the Hass Avocado Board, https://hassavocadoboard.com/volume-data-projections/ .
