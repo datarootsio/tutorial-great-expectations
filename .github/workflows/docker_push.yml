@@ -2,6 +2,8 @@ name: docker_push
 
 on:
   push:
+    branches:
+    - main
 
 jobs:
   main:
@@ -16,7 +18,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          registry: dataroots/tutorial-great-expectations
+          registry: registry.hub.docker.com
       
       -
         name: Build and push
