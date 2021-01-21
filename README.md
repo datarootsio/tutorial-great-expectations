@@ -5,10 +5,12 @@
 
 ## Run using docker
 If you have docker installed, you can pull our container to run the tutorial:
-    `docker pull dataroots/tutorial-great-expectations && docker run -it --rm -p 8888:8888 dataroots/tutorial-great-expectations`
+
+`docker pull dataroots/tutorial-great-expectations && docker run -it --rm -p 8888:8888 dataroots/tutorial-great-expectations`
 
 Alternatively, clone this repository and build the container yourself:
-    `docker build . -t tutorial-great-expectations && docker run -it --rm -p 8888:8888 tutorial-great-expectations`
+
+`docker build . -t tutorial-great-expectations && docker run -it --rm -p 8888:8888 tutorial-great-expectations`
 
 Next, copy paste the URL on the last line of the output to your favorite web browser, and navigate to the `tutorial-great_expectations` notebook.
 Enjoy the ride!
