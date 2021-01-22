@@ -31,5 +31,8 @@ For running the tutorial on your own machine, we reccomend using a [virtual envi
 2. Install the dependencies: `pip install -r requirements.txt`. 
 3. Run `jupyter notebook` in the root directory; then navigate to the `tutorial_great_expectations` notebook.
 
+
+If you see `AttributeError: module 'great_expectations' has no attribute data_context`, you probably do not have Great Expectations installed. Make sure that it is installed and restart your kernel to fix this.
+
 ## Acknowledgements
 Avocado dataset provided by the Hass Avocado Board, https://hassavocadoboard.com/volume-data-projections/ .
