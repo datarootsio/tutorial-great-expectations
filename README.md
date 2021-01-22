@@ -2,6 +2,7 @@
 [![maintained by dataroots](https://img.shields.io/badge/maintained%20by-dataroots-%2300b189)](https://dataroots.io)
 [![PythonVersion](https://img.shields.io/badge/python-3.9-blue)](https://img.shields.io/badge/python-3.9-blue)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/datarootsio/tutorial-great-expectations/blob/main/tutorial_great_expectations.ipynb)
 
 A brief tutorial for using [Great Expectations](https://greatexpectations.io/), a python tool providing batteries-included data validation. It includes tooling for testing, profiling and documenting your data and integrates with many backends such as pandas dataframes, Apache Spark, SQL databases, data warehousing solutions such as Snowflake, and cloud storage offerings (S3, Azure Blob Storage, GCS).
 This tutorial covers the main concepts you'll need to know to use Great Expectations, gently walking you through writing and running your first expectation suite.
