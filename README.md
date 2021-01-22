@@ -9,6 +9,11 @@ This tutorial covers the main concepts you'll need to know to use Great Expectat
 
 If anything is incomplete or unclear, don't hesitate to open an issue!
 
+## Reading online
+If you'd just like to read along, just open [`tutorial_great_expectations.ipynb`](https://github.com/datarootsio/tutorial-great-expectations/blob/main/tutorial_great_expectations.ipynb) in the repository and you're good to go! We made sure all important output is available online.
+
+If you'd like to run the tutorial without running anything on your own machine, you can [open it in Google Colab](https://colab.research.google.com/github/datarootsio/tutorial-great-expectations/blob/main/tutorial_great_expectations.ipynb).
+
 ## Run using docker
 If you have docker installed, you can pull our container to run the tutorial:
 
